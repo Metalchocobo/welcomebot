@@ -8,4 +8,4 @@ app.get('/webhook', function(req, res) {
     console.error("Failed validation. Make sure the validation tokens match.");
     res.sendStatus(403);          
   }   
-});
+}); 
